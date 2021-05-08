@@ -18,16 +18,7 @@ Anna Everett, [sp21-599-355](https://github.com/cybertraining-dsc/sp21-599-355/)
 
 ## Abstract
 
-~general idea: smaller scope create a algotithm that can recognize tone and use it to analyze how it impacts the effectiveness of the customer service. I don't know if this is easier or not~
-
-Here comes a short abstract of the project that summarizes what it is about
-
-The recent increase in use of automated chat botsin customer service is a way for companies to save both money and manpower. The chat bot chan be made available for 24/7 support, providing quick and ideally accurate answers without the need for an actual human on the other end. 
-
-But there are limitations. Most of what exists today are similar to that of a quiz with predefined questions with general and simple answers. Because of this, there are some that question the ability of AI to solve their problems[^1].
-
-In this project natural language processing will be used to train a neural network using customer support conversations over twitter. This system will be able to recognize tone pogression over a conversational thread, which can then be used to find correlations between tone and effectiveness of the service.
-
+Automated customer service is a rising phenomon for buisnesses with an online presence. As customer service bots advance in complication of problems they can handle one concern about the altered customer experiece is how the information is conveyed. Using customer support data tweets on twitter I run sentiment analysis on it customer tweets and then train a convolutional neural network to examine if conversation tone can be detected early in the conversation.
 
 Contents
 
@@ -38,7 +29,6 @@ Contents
 1. Introduction 
 2. Procedure
 
-    * Pre Existing Efforts
     * The Dataset 
     * The Algorithm
 

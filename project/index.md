@@ -30,6 +30,9 @@ Contents
 2. Procedure
 
     * The Dataset 
+     
+     * Simplifying the dataset
+
     * The Algorithm
 
 3. Results 
@@ -58,11 +61,12 @@ To get the best out of both versions of service, this project uses natural langu
 The dataset comes from the public dataset compilation website, kaggle, and can be found at https://www.kaggle.com/thoughtvector/customer-support-on-twitter. This dataset was chosen due to twitter support's informal nature that is expected to come with quicker and more automated customer interactions.
 
 The content of the data consists of over 2.5 million tweets from both customer and various companies that have twitter account representation. Each row of data consists of: the unique tweet id, an anonymized id of the author, if the tweet was sent directly to a company, date and time sent, the content of the tweet, the ids of any tweets that responded to this tweet if any, and the id of the tweet that this was sent in response to if any.
-### 2.2 Pre Existing Efforts 
 
-On the website from which my datset has been made available users often submit their own code working with that particular dataset. For the dataset that has been chosen most of the corresponing uploaded code is related to the pre-processing stage. 
+### 2.2 Simplifying the Dataset 
 
-TODO
+The raw dataset is large and contins unncessery information that isn't needed for this porpose. In order to trim the dataset only the first 20,000 samples are taken.
+
+Next, since the project goal is to predict customer sentiment any tweet and related data sent by a company is removed. Luckily, companies author id's don't get anonymized and therefore we can filter those out by removing any data associated with an author id that contains letters. For speed and simplicity these author id are only checked for vowels
 
 ### 2.3 The Algorithm
 

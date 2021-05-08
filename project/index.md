@@ -36,8 +36,8 @@ Contents
    * Spliting Up the Data
  
 4. Training the Model 
-5. Discussion 
-6. Conclusion
+5. Conclusion
+6. References
 
 **Keywords:** AI, chat bots, tone, nlp, twitter, customer service. 
 
@@ -74,9 +74,9 @@ The raw dataset is large and contins unncessery information that isn't needed fo
 
 Next, since the project goal is to predict customer sentiment any tweet and related data sent by a company is removed. Luckily, companies author id's don't get anonymized and therefore we can filter those out by removing any data associated with an author id that contains letters. For speed and simplicity these author id are only checked for vowels.
 
-## 2.3 The Algorithm
+## 3. The Algorithm
 
-### Sentiment Analysis Overview and Implementation
+### 3.1 Sentiment Analysis Overview and Implementation
 
 Sentiment analysis is the process of taking in natrual language text and determining if it has a positive or negative sentiment [^6]. This process is useful for when doing market research and tracking attitudes towards a particualar company. In a similar fashion this project uses sentiment analysis to determine the text sentiment of the customer initially with their first inquiery and also the sentiment of their side of the conversation as a whole.
 
@@ -90,7 +90,7 @@ The main library used for the sentiment analysis of the data was "nltk" and its 
 As can be seen in the figure above the distribution of the sentiment values are generally on a normal distribution. Looking at the binary classifications of both the first and average sentiment distribution it can be seen that while the majority can be classified as positive, 1, there's still a significant amount that are classified as negative, 0.
 
 
-### Convolutional Neural Networks (CNN)
+### 3.2 Convolutional Neural Networks (CNN)
 
 While convolutional Neural Networks are traditionally used for image processing. [Some articles](https://medium.com/saarthi-ai/sentence-classification-using-convolutional-neural-networks-ddad72c7048c) suggest that CNN's also work well for Natural Language Processing. Traditionally, convolutional neural networks are networks that apply filters over a dataset of pixels and process the pixel as well as those that surrounds it. Typically this is used for images as pictured below for filtering and edge detecting for identifying objects. 
 
@@ -107,19 +107,19 @@ As can be seen by the figure below this project used a multi-layered CNN, altern
 ![CNN model](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/cnn_model.png)
 <br />Fig 6 CNN Model
 
-### Splitting Up the Data
+### 3.3 Splitting Up the Data
 
 The data was split up using the "sklearn.model_selection" package "train_test_split" with the features being input as the encoded tweets and the lables being input as the general classification sentiment.
 
-## Training the Model
+## 4. Training the Model
 
 Ultimatley, we were not able to arrage the data inputs such that they could be processed by the model. This was caused by an overshoot when initially planning the project and an understimation of this particular step of the process. Unfortunatley due to this error the project was not seen to full completion leaving the training of the model, prediction, and end evaluation unaccomplished.
 
-## 7. Conclusion
+## 5. Conclusion
 
 TODO
 
-## 9. References
+## 6. References
 
 [^1]: Super Office, [online resource] <https://www.superoffice.com/blog/live-chat-statistics/>
 

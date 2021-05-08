@@ -49,13 +49,13 @@ Please not ethat an up to date version of these instructions is available at
 
 Some studies report that customers prefer live chat for their customer sevice interactions[^1]. Currently, most issues are simple enough that they can be resolved by a bot; and over 70% of companies are already using or have plans to use some form of software for automation. Existing Ai's in use are limited to simple and common enough questions and or problems that allow for generalizable communication. As AI technology develops and allows it to handle more complicated problems the communication methods will also have to evolve.
 
-![Customer Support Preferences](https://github.com/cybertraining-dsc/sp21-599-355/raw/main/project/images/live_chat_pref.png)
-<br />Fig 1 Customer Support Preferences [^1]
+[![Customer Support Preferences](https://github.com/cybertraining-dsc/sp21-599-355/raw/main/project/images/live_chat_pref.png)](https://acquire.io/wp-content/uploads/2017/09/chat-session.png)
+<br />Fig 1 Customer Support Preferences [Image Source](https://acquire.io/wp-content/uploads/2017/09/chat-session.png)
 
 An article by Forbes "AI Stats News: 86% Of Consumers Prefer Humans To Chatbots", states that only 30% of consumers beleve that an AI would be better at solving their problem than a human agent [^4]. Human agents are usually prefered becuase humans are able to personalize converstaions to the indiviual customer. On the other hand, automated software allows for 24/7 assistance if needed, the scale of how many customers a bot would be able to handle is considered larger and more efficient in comparision to what humans can handle, and a significant amount of questions are simple enough to be handled by a bot [^3].
 
-![Support Satisfaction](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/chat-session.png)
-<br />Fig 2 Support Satisfaction [^1]
+[![Support Satisfaction](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/chat-session.png)](https://www.superoffice.com/blog/live-chat-statistics/)
+<br />Fig 2 Support Satisfaction [Image source](https://www.superoffice.com/blog/live-chat-statistics/)
 
 To get the best out of both versions of service, this project uses natural language processing to analyze social media customer service conversations. This is then run through a convolutional neural network to predict if tone can be determined early in the converstaion.
 
@@ -94,11 +94,11 @@ As can be seen in the figure above the distribution of the sentiment values are 
 
 While convolutional Neural Networks are traditionally used for image processing. [Some articles](https://medium.com/saarthi-ai/sentence-classification-using-convolutional-neural-networks-ddad72c7048c) suggest that CNN's also work well for Natural Language Processing. Traditionally, convolutional neural networks are networks that apply filters over a dataset of pixels and process the pixel as well as those that surrounds it. Typically this is used for images as pictured below for filtering and edge detecting for identifying objects. 
 
-![Convolution visual](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/image_convolved.png)
-<br />Fig 4 Image convolution[^5]
+[![Convolution visual](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/image_convolved.png)](https://miro.medium.com/max/1575/1*EPpYI-llkbtwHgfprtTJzw.png)
+<br />Fig 4 Image convolution [Image source](https://miro.medium.com/max/1575/1*EPpYI-llkbtwHgfprtTJzw.png)
 
-![Image convolution](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/cnn_visual.png)
-<br />Fig 5 Convolution Visual [^7]
+[![Image convolution](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/cnn_visual.png)](https://miro.medium.com/max/1575/1*NBtZgyBC1oSuqs2SswwwbA.png)
+<br />Fig 5 Convolution Visual [Image source](https://miro.medium.com/max/1575/1*NBtZgyBC1oSuqs2SswwwbA.png)
 
 CNN's also work well for natrual language processing. Thinking about the english language, meaning and tone of a scentence or text is caused by the relation of words, rather than each word on its own. NLP through CNNs work in a similar fashion to how it processes images but instead of pixels its encoded words that are being convolved.
 

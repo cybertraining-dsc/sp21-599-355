@@ -31,9 +31,10 @@ Contents
 3. The Algorithm
    
    * Sentiment Analysis Overview and Implementation
-   *  Convolutional Neural Networks (CNN)
-
-4. Results 
+   * Convolutional Neural Networks (CNN)
+   * Spliting Up the Data
+ 
+4. Training the Model 
 5. Discussion 
 6. Conclusion
 
@@ -100,18 +101,22 @@ While convolutional Neural Networks are traditionally used for image processing.
 
 CNN's also work well for natrual language processing. Thinking about the english language, meaning and tone of a scentence or text is caused by the relation of words, rather than each word on its own. NLP through CNNs work in a similar fashion to how it processes images but instead of pixels its encoded words that are being convolved.
 
+As can be seen by the figure below this project used a multi-layered CNN, alternating keras 1 dimension convolution and max pooling layers, a keras dropout layer with a rate of 0.2 to prevent overfitting of the model[^8] and a keras dense layer that implements the activation function into the output [^8]. 
+
 ![CNN model](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/cnn_model.png)
 <br />Fig 6 CNN Model
 
-## 6. Benchmark
+### Splitting Up the Data
 
-TODO
+The data was split up using the "sklearn.model_selection" package "train_test_split" with the features being input as the encoded tweets and the lables being input as the general classification sentiment.
+
+## Training the Model
+
+Ultimatley, we were not able to arrage the data inputs such that they could be processed by the model. This was caused by an overshoot when initially planning the project and an understimation of this particular step of the process. Unfortunatley due to this error the project was not seen to full completion leaving the training of the model, prediction, and end evaluation unaccomplished.
 
 ## 7. Conclusion
 
 TODO
-
-
 
 ## 9. References
 
@@ -128,3 +133,5 @@ TODO
 [^6]: Monkey learn, [online resource] <https://monkeylearn.com/sentiment-analysis/>
 
 [^7]: Towards data science, [online resource]<https://towardsdatascience.com/nlp-with-cnns-a6aa743bdc1e>
+
+[^8]: Keras, [online documentation] <https://keras.io/api/layers/regularization_layers/dropout/>

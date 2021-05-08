@@ -87,12 +87,12 @@ The main library used for the sentiment analysis of the data was "nltk" and its 
 ![Customer Sentiment Distribution](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/customer_dist.png)
 <br />Fig 3 Customer Sentiment Distribution
 
-As can be seen in the figure above the distribution of the sentiment values are generally on a normal distribution. Looking at the binary classifications of both the first and average sentiment distribution it can be seen that while the majority can be classified as positive, 1, there's still a significant amount that are classified as negative, 0.
+As can be seen in the Fig 3 the distribution of the sentiment values are generally on a normal distribution. Looking at the binary classifications of both the first and average sentiment distribution it can be seen that while the majority can be classified as positive, 1, there's still a significant amount that are classified as negative, 0.
 
 
 ### 3.2 Convolutional Neural Networks (CNN)
 
-While convolutional Neural Networks are traditionally used for image processing. [Some articles](https://medium.com/saarthi-ai/sentence-classification-using-convolutional-neural-networks-ddad72c7048c) suggest that CNN's also work well for Natural Language Processing. Traditionally, convolutional neural networks are networks that apply filters over a dataset of pixels and process the pixel as well as those that surrounds it. Typically this is used for images as pictured below for filtering and edge detecting for identifying objects. 
+While convolutional Neural Networks are traditionally used for image processing. [Some articles](https://medium.com/saarthi-ai/sentence-classification-using-convolutional-neural-networks-ddad72c7048c) suggest that CNN's also work well for Natural Language Processing. Traditionally, convolutional neural networks are networks that apply filters over a dataset of pixels and process the pixel as well as those that surrounds it. Typically this is used for images as pictured below in Fig 4, for filtering and edge detecting for identifying objects. 
 
 [![Convolution visual](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/image_convolved.png)](https://miro.medium.com/max/1575/1*EPpYI-llkbtwHgfprtTJzw.png)
 <br />Fig 4 Image convolution [Image source](https://miro.medium.com/max/1575/1*EPpYI-llkbtwHgfprtTJzw.png)
@@ -102,7 +102,7 @@ While convolutional Neural Networks are traditionally used for image processing.
 
 CNN's also work well for natrual language processing. Thinking about the english language, meaning and tone of a scentence or text is caused by the relation of words, rather than each word on its own. NLP through CNNs work in a similar fashion to how it processes images but instead of pixels its encoded words that are being convolved.
 
-As can be seen by the figure below this project used a multi-layered CNN, alternating keras 1 dimension convolution and max pooling layers, a keras dropout layer with a rate of 0.2 to prevent overfitting of the model[^8] and a keras dense layer that implements the activation function into the output [^8]. 
+As can be seen by Fig 6, this project used a multi-layered CNN, alternating keras 1 dimension convolution and max pooling layers, a keras dropout layer with a rate of 0.2 to prevent overfitting of the model[^8] and a keras dense layer that implements the activation function into the output [^8]. 
 
 ![CNN model](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/cnn_model.png)
 <br />Fig 6 CNN Model

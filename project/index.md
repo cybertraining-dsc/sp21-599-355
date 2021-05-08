@@ -29,7 +29,7 @@ Contents
     * Simplifying the dataset
 
 3. The Algorithm
-   
+
    * Sentiment Analysis Overview and Implementation
    * Convolutional Neural Networks (CNN)
    * Spliting Up the Data
@@ -48,7 +48,7 @@ Please not ethat an up to date version of these instructions is available at
 
 Some studies report that customers prefer live chat for their customer sevice interactions[^1]. Currently, most issues are simple enough that they can be resolved by a bot; and over 70% of companies are already using or have plans to use some form of software for automation. Existing Ai's in use are limited to simple and common enough questions and or problems that allow for generalizable communication. As AI technology develops and allows it to handle more complicated problems the communication methods will also have to evolve.
 
-![Customer Support Preferences](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/live_chat_pref.png)
+![Customer Support Preferences](https://github.com/cybertraining-dsc/sp21-599-355/raw/main/project/images/live_chat_pref.png)
 <br />Fig 1 Customer Support Preferences [^1]
 
 An article by Forbes "AI Stats News: 86% Of Consumers Prefer Humans To Chatbots", states that only 30% of consumers beleve that an AI would be better at solving their problem than a human agent [^4]. Human agents are usually prefered becuase humans are able to personalize converstaions to the indiviual customer. On the other hand, automated software allows for 24/7 assistance if needed, the scale of how many customers a bot would be able to handle is considered larger and more efficient in comparision to what humans can handle, and a significant amount of questions are simple enough to be handled by a bot [^3].

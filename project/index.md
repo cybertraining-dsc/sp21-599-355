@@ -102,22 +102,22 @@ While convolutional Neural Networks are traditionally used for image processing.
 
 CNN's also work well for natrual language processing. Thinking about the english language, meaning and tone of a scentence or text is caused by the relation of words, rather than each word on its own. NLP through CNNs work in a similar fashion to how it processes images but instead of pixels its encoded words that are being convolved.
 
-As can be seen by Fig 6, this project used a multi-layered CNN, alternating keras 1 dimension convolution and max pooling layers, a keras dropout layer with a rate of 0.2 to prevent overfitting of the model[^8] and a keras dense layer that implements the activation function into the output [^8]. 
+As can be seen by Fig 6, this project used a multi-layered CNN: beginning with an embedding layer, alternating keras 1 dimension convolution and max pooling layers, a keras dropout layer with a rate of 0.2 to prevent overfitting of the model[^8] and a keras dense layer that implements the activation function into the output [^8]. 
 
 ![CNN model](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/cnn_model.png)
 **Fig 6**: CNN Model
 
 ### 3.3 Splitting Up the Data
 
-The data was split up using the "sklearn.model_selection" package "train_test_split" with the features being input as the encoded tweets and the lables being input as the general classification sentiment.
+In order for the data to be suitable to be run through the CNN the input features must be reshaped into a 2-D array. Afterwards the data was split up using the "sklearn.model_selection" package "train_test_split" with the features being input as the encoded tweets and the lables being input as the general classification sentiment. 
 
 ## 4. Training the Model
 
-Ultimatley, we were not able to arrage the data inputs such that they could be processed by the model. This was caused by an overshoot when initially planning the project and an understimation of this particular step of the process. Unfortunatley due to this error the project was not seen to full completion leaving the training of the model, prediction, and end evaluation unaccomplished.
+The model was trained using the training text and training sentiment, because of the small samples used a batch size of 50 was input and run for 10 epochs. 
 
 ## 5. Conclusion
 
-In conclusion, while sentiment prediction of customer tweets were not able to be executed there is still useful information found to aid in future attempts. In dealing with the informal raw twitter data ad performing a non-binary sentiment analysis allowed for visualization of the true spread of what can be expected when anticipating dealing with customers, especially in an informal setting such as social media. This project also brought to light the theorectial versatility of convolutional neural networks, though not further examined in this project.
+In conclusion, while sentiment prediction of customer tweets were not able to be executed there is still useful information found to aid in future attempts. In dealing with the informal raw twitter data ad performing a non-binary sentiment analysis allowed for visualization of the true spread of what can be expected when anticipating dealing with customers, especially in an informal setting such as social media. This project also brought to light the theorectial versatility of convolutional neural networks, though not further examined in this project. In addition to this using the model fit as any sort of indication there is reasonable evidence that the first inquiry will be enough to predict and take proactive measures in future customer service chat bots.
 
 ## 6. References
 

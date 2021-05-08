@@ -25,11 +25,13 @@ Contents
 1. Introduction 
 2. Procedure
 
-    * The Dataset 
-     
+    * The Dataset
     * Simplifying the dataset
 
 3. The Algorithm
+   
+   * Sentiment Analysis Overview and Implementation
+   *  Convolutional Neural Networks (CNN)
 
 4. Results 
 5. Discussion 

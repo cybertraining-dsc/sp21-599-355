@@ -44,15 +44,11 @@ Please not ethat an up to date version of these instructions is available at
 
 * <https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md>
 
-Here comes a convincing introduction to the problem
+Some studies such as this one and this one report that customers prefer live chat for their customer sevice interactions[1]. Currently, most issues are simple enough that they can be resolved by a bot; and over 70% of companies are already using or have plans to use some form of software for automation. Existing Ai's in use are limited to simple and common enough questions and or problems that allow for generalizable communication. As AI technology develops and allows it to handle more complicated problems the communication methods will also have to evolve.
 
-Due to the rise of automation in businesses a lot of what is being seen by the general public is their use of chat bots in customer service. A chatbot is a software that is able to communicate with humans in real time in response to questions or sentences[^2].
+An article by Forbes "AI Stats News: 86% Of Consumers Prefer Humans To Chatbots", states that only 30% of consumers beleve that an AI would be better at solving their problem than a human agent [4]. Human agents are usually prefered becuase humans are able to personalize converstaions to the indiviual customer. On the other hand, automated software allows for 24/7 assistance if needed, the scale of how many customers a bot would be able to handle is considered larger and more efficient in comparision to what humans can handle, and a significant amount of questions are simple enough to be handled by a bot [3].
 
-However, a concern for companies using chat bots is the communication and interaction with the humans on the other end of the bot. Bots are convenient because they don’t need to have off hours, making customer service available 24/7, and are capable of providing quick responses. 
-
-But most bots are limited in their ability to engage with the customers due to the necessity of generatability in the solutions.
-
-
+To get the best out of both versions of service, this project uses natural language processing to analyze social media customer service conversations. This is then run through a convolutional neural network to predict if tone can be determined early in the converstaion.
 ## 2. Procedure
 
 

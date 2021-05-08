@@ -117,7 +117,7 @@ Ultimatley, we were not able to arrage the data inputs such that they could be p
 
 ## 5. Conclusion
 
-TODO
+In conclusion, while sentiment prediction of customer tweets were not able to be executed there is still useful information found to aid in future attempts. In dealing with the informal raw twitter data ad performing a non-binary sentiment analysis allowed for visualization of the true spread of what can be expected when anticipating dealing with customers, especially in an informal setting such as social media. This project also brought to light the theorectial versatility of convolutional neural networks, though not further examined in this project.
 
 ## 6. References
 

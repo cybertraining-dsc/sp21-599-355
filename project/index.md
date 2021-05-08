@@ -50,12 +50,12 @@ Please not ethat an up to date version of these instructions is available at
 Some studies report that customers prefer live chat for their customer sevice interactions[^1]. Currently, most issues are simple enough that they can be resolved by a bot; and over 70% of companies are already using or have plans to use some form of software for automation. Existing Ai's in use are limited to simple and common enough questions and or problems that allow for generalizable communication. As AI technology develops and allows it to handle more complicated problems the communication methods will also have to evolve.
 
 [![Customer Support Preferences](https://github.com/cybertraining-dsc/sp21-599-355/raw/main/project/images/live_chat_pref.png)](https://acquire.io/wp-content/uploads/2017/09/chat-session.png)
-<br />Fig 1 Customer Support Preferences [Image Source](https://acquire.io/wp-content/uploads/2017/09/chat-session.png)
+**Fig 1**: Customer Support Preferences [^1]
 
 An article by Forbes "AI Stats News: 86% Of Consumers Prefer Humans To Chatbots", states that only 30% of consumers beleve that an AI would be better at solving their problem than a human agent [^4]. Human agents are usually prefered becuase humans are able to personalize converstaions to the indiviual customer. On the other hand, automated software allows for 24/7 assistance if needed, the scale of how many customers a bot would be able to handle is considered larger and more efficient in comparision to what humans can handle, and a significant amount of questions are simple enough to be handled by a bot [^3].
 
 [![Support Satisfaction](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/chat-session.png)](https://www.superoffice.com/blog/live-chat-statistics/)
-<br />Fig 2 Support Satisfaction [Image source](https://www.superoffice.com/blog/live-chat-statistics/)
+**Fig 2**: Support Satisfaction [Image source](https://www.superoffice.com/blog/live-chat-statistics/)
 
 To get the best out of both versions of service, this project uses natural language processing to analyze social media customer service conversations. This is then run through a convolutional neural network to predict if tone can be determined early in the converstaion.
 
@@ -85,7 +85,7 @@ The goal of analyzing both the first and general tone of the text is to determin
 The main library used for the sentiment analysis of the data was "nltk" and its subpackage "SentimentIntensityAnalyzer"
 
 ![Customer Sentiment Distribution](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/customer_dist.png)
-<br />Fig 3 Customer Sentiment Distribution
+**Fig 3**: Customer Sentiment Distribution 
 
 As can be seen in the Fig 3 the distribution of the sentiment values are generally on a normal distribution. Looking at the binary classifications of both the first and average sentiment distribution it can be seen that while the majority can be classified as positive, 1, there's still a significant amount that are classified as negative, 0.
 
@@ -95,17 +95,17 @@ As can be seen in the Fig 3 the distribution of the sentiment values are general
 While convolutional Neural Networks are traditionally used for image processing. [Some articles](https://medium.com/saarthi-ai/sentence-classification-using-convolutional-neural-networks-ddad72c7048c) suggest that CNN's also work well for Natural Language Processing. Traditionally, convolutional neural networks are networks that apply filters over a dataset of pixels and process the pixel as well as those that surrounds it. Typically this is used for images as pictured below in Fig 4, for filtering and edge detecting for identifying objects. 
 
 [![Convolution visual](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/image_convolved.png)](https://miro.medium.com/max/1575/1*EPpYI-llkbtwHgfprtTJzw.png)
-<br />Fig 4 Image convolution [Image source](https://miro.medium.com/max/1575/1*EPpYI-llkbtwHgfprtTJzw.png)
+**Fig 4**: Image convolution [Image source](https://miro.medium.com/max/1575/1*EPpYI-llkbtwHgfprtTJzw.png)
 
 [![Image convolution](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/cnn_visual.png)](https://miro.medium.com/max/1575/1*NBtZgyBC1oSuqs2SswwwbA.png)
-<br />Fig 5 Convolution Visual [Image source](https://miro.medium.com/max/1575/1*NBtZgyBC1oSuqs2SswwwbA.png)
+**Fig 5**: Convolution Visual [Image source](https://miro.medium.com/max/1575/1*NBtZgyBC1oSuqs2SswwwbA.png)
 
 CNN's also work well for natrual language processing. Thinking about the english language, meaning and tone of a scentence or text is caused by the relation of words, rather than each word on its own. NLP through CNNs work in a similar fashion to how it processes images but instead of pixels its encoded words that are being convolved.
 
 As can be seen by Fig 6, this project used a multi-layered CNN, alternating keras 1 dimension convolution and max pooling layers, a keras dropout layer with a rate of 0.2 to prevent overfitting of the model[^8] and a keras dense layer that implements the activation function into the output [^8]. 
 
 ![CNN model](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/cnn_model.png)
-<br />Fig 6 CNN Model
+**Fig 6**: CNN Model
 
 ### 3.3 Splitting Up the Data
 

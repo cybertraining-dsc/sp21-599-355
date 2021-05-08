@@ -54,10 +54,10 @@ To get the best out of both versions of service, this project uses natural langu
 
 ### 2.1 The Dataset
 
-The dataset being used is from the kaggle online database and is called "Customer Support on Twitter"[^3]. 
-This dataset has been chosen because it is the most well suited for tone detection and monitoring. Because of Twitter's informality as a social media platform, conversations are more likley to be of natural and causal speech patterns[^3].
-In addition to this, the character limit imposed by the platform, 140 characters per tweet, both customers and company agents are required to give the most amount of information in the briefest amount of time. This should make it eaiser to detect and track tone. 
 
+The dataset comes from the public dataset compilation website, kaggle, and can be found at https://www.kaggle.com/thoughtvector/customer-support-on-twitter. This dataset was chosen due to twitter support's informal nature that is expected to come with quicker and more automated customer interactions.
+
+The content of the data consists of over 2.5 million tweets from both customer and various companies that have twitter account representation. Each row of data consists of: the unique tweet id, an anonymized id of the author, if the tweet was sent directly to a company, date and time sent, the content of the tweet, the ids of any tweets that responded to this tweet if any, and the id of the tweet that this was sent in response to if any.
 ### 2.2 Pre Existing Efforts 
 
 On the website from which my datset has been made available users often submit their own code working with that particular dataset. For the dataset that has been chosen most of the corresponing uploaded code is related to the pre-processing stage. 

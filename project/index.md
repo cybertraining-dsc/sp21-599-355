@@ -113,11 +113,11 @@ In order for the data to be suitable to be run through the CNN the input feature
 
 ## 4. Training the Model
 
-The model was trained using the training text and training sentiment, because of the small samples used a batch size of 50 was input and run for 10 epochs. 
+The model was trained using the training text and training sentiment, because of the small samples used a batch size of 50 was input and run for 10 epochs.
 
 ## 5. Conclusion
 
-In conclusion, while sentiment prediction of customer tweets were not able to be executed there is still useful information found to aid in future attempts. In dealing with the informal raw twitter data ad performing a non-binary sentiment analysis allowed for visualization of the true spread of what can be expected when anticipating dealing with customers, especially in an informal setting such as social media. This project also brought to light the theorectial versatility of convolutional neural networks, though not further examined in this project. In addition to this using the model fit as any sort of indication there is reasonable evidence that the first inquiry will be enough to predict and take proactive measures in future customer service chat bots.
+In conclusion, while sentiment prediction of customer tweets were not able to be executed there is still useful information found to aid in future attempts. In dealing with the informal raw twitter data ad performing a non-binary sentiment analysis allowed for visualization of the true spread of what can be expected when anticipating dealing with customers, especially in an informal setting such as social media. This project also brought to light the theorectial versatility of convolutional neural networks, though not further examined in this project. Using the model model fit as an indication, there is reasonable evidence that the first inquiry will be enough to predict and take proactive measures in future customer service chat bots. Future execution of this project should include altering the data pre-processing technique and using a larger set of samples from the dataset.
 
 ## 6. References
 

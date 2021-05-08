@@ -1,11 +1,5 @@
 # Project: Chat Bots in Customer Service
 
-* :o2: Author missing
-* :o2: No need to use striikout for us, but you can use it for yourself
-* :o2: Abstract should be defined by now
-* :o2: Introduction is missing
-* :o2: Refernces shoudl be defined by now
-
 
 [![Check Report](https://github.com/cybertraining-dsc/sp21-599-355/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/sp21-599-355/actions)
 [![Status](https://github.com/cybertraining-dsc/sp21-599-355/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/sp21-599-355/actions)
@@ -96,7 +90,7 @@ As can be seen in the figure above the distribution of the sentiment values are 
 
 While convolutional Neural Networks are traditionally used for image processing. [Some articles](https://medium.com/saarthi-ai/sentence-classification-using-convolutional-neural-networks-ddad72c7048c) suggest that CNN's also work well for Natural Language Processing. Traditionally, convolutional neural networks are networks that apply filters over a dataset of pixels and process the pixel as well as those that surrounds it. Typically this is used for images as pictured below for filtering and edge detecting for identifying objects. 
 
-![Image convolution]()
+![Image convolution](https://github.com/cybertraining-dsc/sp21-599-355/blob/main/project/images/cnn_visual.png)
 <br />Fig4 Convolution Visual [^7]
 
 CNN's also work well for natrual language processing. Thinking about the english language, meaning and tone of a scentence or text is caused by the relation of words, rather than each word on its own. NLP through CNNs work in a similar fashion to how it processes images but instead of pixels its encoded words that are being convolved.

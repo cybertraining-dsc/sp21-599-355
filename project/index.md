@@ -1,4 +1,15 @@
-# Project: Chat Bots in Customer Service
+---
+date: 2021-03-15
+title: Project: Chat Bots in Customer Service
+linkTitle: Chat Bot
+tags: ["project", "ai", "nlp"]
+description: Automated customer service is a rising phenomon for buisnesses with an online presence. As customer service bots advance in complication of problems they can handle one concern about the altered customer experiece is how the information is conveyed. Using customer support data tweets on twitter this project runs sentiment analysis on it customer tweets and then train a convolutional neural network to examine if conversation tone can be detected early in the conversation.
+author: Anna Everett
+resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
+---
+
 
 
 [![Check Report](https://github.com/cybertraining-dsc/sp21-599-355/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/sp21-599-355/actions)
